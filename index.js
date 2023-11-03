@@ -12,7 +12,7 @@ canvas.height = ty;
 var mousex = 0;
 var mousey = 0;
 
-addEventListener("mousemove", function() {
+addEventListener("mousemove", function(event) {
     mousex = event.clientX;
     mousey = event.clientY;
   });
